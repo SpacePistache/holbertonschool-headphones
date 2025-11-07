@@ -254,9 +254,11 @@ header .menu-btn {
 
 .results {
   text-align: center;
-  padding: 6rem 2rem;
-  background: url(./images/headphones_hero_2.jpg);
+  padding: 10rem 2rem;
+  background: url(./images/headphones_hero_2.jpg)center/cover no-repeat;
   color: #fff;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
 }
 
 .results-content {
